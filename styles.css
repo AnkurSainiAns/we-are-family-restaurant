@@ -156,11 +156,45 @@ input {
 }
 #temp{
     display: flex;
-    gap: 200px;
+    gap: 40px;
     justify-content: center;
+    align-items: center;
     margin: 40px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    padding : 20px;
 
 }
 #r{
     width: 250px;
+}
+#google{
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    margin-left: 200px;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    padding: 4px;
+    gap: 2px;
+
+}
+#screen{
+    width: 150px;
+    height: 20px;
+    border: 1px solid black;
+}
+#quick-link{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }

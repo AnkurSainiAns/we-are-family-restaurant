@@ -200,6 +200,7 @@ nav{
     column-gap: 40px;
     margin-top: 20px;
     margin-right: 40px;
+   
     
 }
 #logo{
@@ -271,4 +272,33 @@ nav{
     padding: 20px;
     border: 2px solid black;
     gap: 5px;
+} 
+                            /* feedback */
+#feedback-viddo{
+    width: 1100px;
+}
+#fed{
+    width: 500px;
+    height: 500px;
+}
+
+
+#fedback{
+    display: flex;
+    gap: 150px;
+}
+#form{
+    margin-top: 50px;
+}
+
+                       /* contact */
+#contact-viddo{
+    width: 550px;
+    height: 550px;
+    margin-top: 0px;
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
 }

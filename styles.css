@@ -70,6 +70,10 @@ input {
     margin-bottom: 10px;
 }
 
+#sub {
+    cursor: pointer;
+}
+
 #space2 {
     border: 1px solid black;
     height: 100%;
@@ -91,10 +95,11 @@ input {
 
 #img {
     display: flex;
-    width: 150px;
+    width: 175px;
     border: 2px solid yellow;
     box-shadow: blue 0px 0px 10px;
     border-radius: 10px;
+    margin: 1px;
 }
 
 #menu-img {
@@ -141,11 +146,12 @@ input {
     justify-content: center;
     gap: 100px;
 }
-#Reviews-data{
+
+#Reviews-data {
     margin-right: 60px;
 }
 
-#temp{
+#temp {
     display: flex;
     gap: 40px;
     justify-content: center;
@@ -153,57 +159,74 @@ input {
     margin: 40px;
     /* border: 2px solid black; */
     border-radius: 10px;
-    padding : 20px;
+    padding: 20px;
 
 }
-#r{
+
+#r {
     width: 250px;
 }
-#google{
-    width: 200px;
+
+#google {
+    width: 250px;
     height: 40px;
-    border: 2px solid black;
+    border: 1px solid black;
     margin-left: 200px;
+    margin-top: 20px;
     align-items: center;
     /* justify-content: center; */
     display: flex;
-    padding: 4px;
-    gap: 2px;
+
+    gap: 3px;
 
 }
-#screen{
+
+#screen {
     width: 150px;
     height: 20px;
     border: 1px solid black;
+    border-radius: 25px;
+    padding: 4px;
 }
-#quick-link{
+
+#tex {
+    margin-left: 10px;
+}
+
+#quick-link {
     display: flex;
-    gap: 50px;
-    margin-top: 20px;
-    cursor: pointer;
+    gap: 100px;
+    /* margin-top: 20px; */
+    /* margin-left: 50px; */
+    justify-content: center;
+    justify-items: center;
 }
-#end{
+
+#end {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
-#subb{
+
+#subb {
     margin: 10px;
 }
-nav{
-    
+
+nav {
+
     align-items: center;
     display: flex;
     justify-content: center;
     column-gap: 40px;
     margin-top: 20px;
     margin-right: 40px;
-   
-    
+
+
 }
-#logo{
+
+#logo {
     width: 400px;
     height: 300px;
     /* border: 2px solid black; */
@@ -212,20 +235,22 @@ nav{
     background-size: cover;
 
 }
-#viddo{
+
+#viddo {
     border: 2px solid black;
     width: 600px;
     margin: 40px;
-    
+
 }
-#heading1{
+
+#heading1 {
     display: flex;
     gap: 50px;
 
 }
 
-                                     /* Menu Css */
-#logo-menu{
+/* Menu Css */
+#logo-menu {
     display: flex;
     width: 250px;
     height: 250px;
@@ -234,71 +259,95 @@ nav{
     background-size: cover;
 
 }
-#menu-head{
+
+#menu-head {
     margin-top: 100px;
     margin-left: 300px;
 
 }
-#menu-art{
+
+#menu-art {
     display: flex;
 }
-#menu-vid{
+
+#menu-vid {
     width: 1100px;
     height: auto;
 }
-#menuu{
+
+#menuu {
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
-    border:1px solid black;
+    border: 1px solid black;
     padding: 25px;
 
-    
+
 }
-#btn{
+
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6 {
     margin-left: 250px;
     border: 2px solid black;
     color: black;
     background-color: yellow;
     font-size: 20px;
     cursor: pointer;
-    
+
 }
 
-#img-menu{
+#img-menu {
     display: flex;
     flex-direction: column;
     padding: 20px;
     border: 2px solid black;
     gap: 5px;
-} 
-                            /* feedback */
-#feedback-viddo{
+}
+
+/* feedback */
+#feedback-viddo {
     width: 1100px;
 }
-#fed{
+
+#fed {
     width: 500px;
     height: 500px;
 }
 
 
-#fedback{
+#fedback {
     display: flex;
     gap: 150px;
 }
-#form{
+
+#form {
     margin-top: 50px;
 }
 
-                       /* contact */
-#contact-viddo{
+/* contact */
+#contact-viddo {
     width: 550px;
     height: 550px;
     margin-top: 0px;
 }
-#contact{
+
+#contact {
     display: flex;
     flex-direction: row;
     gap: 100px;
+}
+
+/*                       js */
+#space1,
+#space3,
+#space4 {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+
 }

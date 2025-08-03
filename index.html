@@ -7,6 +7,10 @@
     <title> We'r Family</title>
     <link rel="stylesheet" href="styles.css">
 
+
+</head>
+
+<body>
     <nav>
 
         <a href="index.html">Home</a>
@@ -16,13 +20,11 @@
 
     </nav>
 
-</head>
-
-<body>
     <div id="heading1">
         <div id="logo"></div>
-        <div >
-            <video id="viddo" src="images/main viddo/viddo.mp4" autoplay loop></video> </div>
+        <div>
+            <video id="viddo" src="images/main viddo/viddo.mp4" autoplay loop></video>
+        </div>
     </div>
     <div id="slider">
         <img id="i" src="images/slider/jason-leung-poI7DelFiVA-unsplash.jpg" alt="Restaurant Image">
@@ -59,8 +61,11 @@
             <input type="time" name="Time" id="time" required placeholder="At-">
             <h3> message :</h3>
             <input type="text" name="message" id="message" placeholder="Any special request">
-            <br>
-            <input id="Sub" type=submit value="Submit">
+            <!-- <br> -->
+            <div>
+                <p id="space1"></p>
+            </div>
+            <button id="sub"> Submit </button>
 
 
         </div>
@@ -73,7 +78,7 @@
             alt="indian-food-slide">
         <img id="img" src="images/indian-food-slide/1.png" alt="indian-food-slide">
         <img id="img" src="images/indian-food-slide/2.png" alt="indian-food-slide">
-        <img id="img" src="images/indian-food-slide/3.png" alt="indian-food-slide">
+        <!-- <img id="img" src="images/indian-food-slide/03.png alt="indian-food-slide"> -->
         <img id="img" src="images/indian-food-slide/01.png" alt="indian-food-slide">
         <img id="img" src="images/indian-food-slide/02.png" alt="indian-food-slide">
         <img id="img" src="/images/indian-food-slide/03.png" alt="indian-food-slide">
@@ -85,22 +90,22 @@
     <div id="menu">
         <div id="menu-img"></div>
         <div id="menu-details">
-            
+
             <div id="menu-data">
                 <H1 id="ord">Quick Order</H1>
                 <h3>Starters </h3>
-                <select name="select" id="select">
-                    <option value="Select">select</option>
+                <select id="select1">
+                    <option value="">select</option>
                     <option value="Paneer Tikka">Paneer Tikka</option>
                     <option value="Crispy Corn Chaat">Crispy Corn Chaat</option>
                     <option value="Vegetable Spring Rolls">Vegetable Spring Rolls</option>
                     <option value="Hara Bhara Kesar">Hara Bhara Kesar</option>
                 </select>
-                </select>
+
 
                 <h3>Soups & Salads</h3>
-                <select name="select" id="select">
-                    <option value="Select">select</option>
+                <select id="select2">
+                    <option value="">select</option>
                     <option value="Tomato Soup">Tomato Soup</option>
                     <option value="Greek Salad">Greek Salad</option>
                     <option value="Beetroot Salad">Beetroot Salad</option>
@@ -108,8 +113,8 @@
                 </select>
 
                 <h3>Main Course </h3>
-                <select name="select" id="select">
-                    <option value="Select">select</option>
+                <select id="select3">
+                    <option value="">select</option>
                     <option value="Paneer Butter Masala">Paneer Butter Masala</option>
                     <option value="Dal Tadka">Dal Tadka</option>
                     <option value="Chole Bhature">Chole Bhature</option>
@@ -119,9 +124,8 @@
                 </select>
 
                 <h3>Desserts </h3>
-                <select name="select" id="select">
-                    <option value="Select">select</option>
-
+                <select id="select4">
+                    <option value="">select</option>
                     <option value="Gulab Jamun">Gulab Jamun</option>
                     <option value="Rasmalai ">Rasmalai </option>
                     <option value="Fruit Custard">Fruit Custard</option>
@@ -130,8 +134,8 @@
                 </select>
 
                 <h3>Beverages</h3>
-                <select name="select" id="select">
-                    <option value="Select">select</option>
+                <select id="select5">
+                    <option value="">select</option>
                     <option value="Masala Chai ">Masala Chai </option>
                     <option value="Filter Coffee">Filter Coffee</option>
                     <option value="Fresh Lime Soda">Fresh Lime Soda</option>
@@ -139,19 +143,22 @@
                 </select>
 
                 <h3>Specials</h3>
-                <select name="select" id="select">
-                    <option value="Select">select</option>
+                <select id="select6">
+                    <option value="">select</option>
                     <option value="Rose Falooda">Rose Falooda</option>
                     <option value="Malai Kofta Royal">Malai Kofta Royal</option>
                     <option value="Tandoori Broccoli ">Tandoori Broccoli </option>
                     <option value="Kesar Badam Milk">Kesar Badam Milk</option>
                     <option value="Paneer Tikka Biryani">Paneer Tikka Biryani</option>
                     <option value="Zafrani Veg Biryani">Zafrani Veg Biryani</option>
-                   
                     <option value="Kadhai Paneer">Kadhai Paneer</option>
                 </select>
-                <br><br>
-                <input type="submit" value="Order Now">
+
+                <div id="space3">
+                    </p>
+                </div>
+                <button id="submi"> Submit </button>
+
 
 
             </div>
@@ -175,48 +182,57 @@
             <video id="vid" src="images/reviews/Customer Reviews.mp4" autoplay loop></video>
         </div>
         <div id="Reviews-data">
-            <h1 di="rev" >Reviews</h1>
+            <h1 di="rev">Reviews</h1>
             <form>
                 <p>Full Name</p>
-                <input type="text" name="name" id="name" required placeholder="enter your full name">
+                <input type="text" name="name" id="name5" required placeholder="enter your full name">
                 <p>Mobile Number</p>
-                <input type="tel" name="mobile" id="mobile" required placeholder="enter your mobile number">
+                <input type="tel" name="mobile" id="mobile5" required placeholder="enter your mobile number">
                 <p> Feedback </p>
                 <textarea name="feedback" id="feedback" cols="30" rows="10" required
                     placeholder="enter your feedback"></textarea>
-                <br>
-                <input type=submit id="subb" value="Submit">
+
+                <div>
+                    <p id="space4"></p>
+                </div>
+                <button id="subb"> Submit </button>
+
             </form>
 
         </div>
     </div>
     <div id="space2"></div>
+    <footer>
+        <div id="quick-link">
 
+            <nav>
 
-</body>
-<footer>
-    <div id="quick-link">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="Feedback.html">Feedback</a>
+                <a href="Contact.html">Contact</a>
 
-        <menu>Home</menu>
-        <menu>Menu</menu>
-        <menu>Contact</menu>
-        <menu>Feedback</menu>
+            </nav>
 
-        <div id="google">
-            <div id="tex"> Google </div>
-            <div id="screen"></div>
+            <div id="google">
+                <div id="tex"> Google </div>
+                <div id="screen"></div>
+            </div>
+
         </div>
 
-    </div>
+        </div>
+        <div id="space2"></div>
 
-    </div>
-    <div id="space2"></div>
-
-    <p id="end">&copy; 2025 We'r Family Restaurant. All rights reserved. Designed by Ankur Saini 💕</p>
+        <p id="end">&copy; 2025 We'r Family Restaurant. All rights reserved. Designed by Ankur Saini 💕</p>
 
 
-    <div id="space2"></div>
+        <div id="space2"></div>
 
-</footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
 
 </html>
